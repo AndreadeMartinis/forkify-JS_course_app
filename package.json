@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Andrea de Martinis",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "fracty": "^1.0.11",
+    "regenerator": "^0.14.10",
+    "runtime": "^0.9.10"
+  }
+}
